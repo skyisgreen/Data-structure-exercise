@@ -4,15 +4,11 @@
 
 int main()
 { 
-    	
-	int n;
+    int n;
     scanf("%d",&n);
-
-  for(int w=0;w<n;w++){
-  
     int check;
     int x;
-    scanf("%d",&x);
+     scanf("%d",&x);
     int t=x/100000;//得到十万位
 	
 	int a=x%100000;
@@ -28,10 +24,11 @@ int main()
 	int h=g/10;//得到十位
 	
 	int i=g%10;//得到个位
-
+	
+	
+  
 	while(n--)
 	{
-		 
 		
 		if(t+b+d==f+h+i)
 	{
@@ -41,10 +38,9 @@ int main()
 	{
 		printf("Wish you good luck.");
 	}
-}
 	return 0;
 
-}
+ }
 } 
 
 
